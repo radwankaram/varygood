@@ -1,0 +1,656 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#transcriptionContainer {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.copy-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+  
+
+
+
+
+.section1 .car{
+    height: 577px;
+    padding: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl; /* لضبط اتجاه النص للغة العربية */
+    margin: 0;
+    padding: 0;
+}
+
+.audio-recorder-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#languageSelector {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.record-indicator {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#recordedAudioContainer {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div1 {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 500px;
+  }
+  
+  input[type="number"], input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  #symbols-list {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+  
+    input[type="number"], input[type="text"] {
+        width: 100%;
+    }
+  
+    button {
+        width: 100%;
+        padding: 12px;
+        margin: 5px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    button {
+        font-size: 14px;
+    }
+  
+    #symbols-list {
+        font-size: 12px;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* min-height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; */ */
+   
+} 
+.age-calculator-container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 700px;
+ 
+    height: 270px;
+    text-align: center;
+    
+}
+.input-date-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.calculate-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00acc1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.calculate-btn:hover {
+    background-color: #00838f;
+}
+.age-result {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #004d40;
+}
+@media (max-width: 600px) {
+    .age-calculator-container {
+        padding: 20px;
+    }
+    .input-date-field, .calculate-btn {
+        font-size: 0.9em;
+    }
+    .age-result {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh;
+    margin: 0; */ */
+}
+
+.currency-container {
+
+    width: 677px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.converter-widget {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.amount-group, .currency-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#conversionResult {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #eef2f7; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh;
+    margin: 0; */
+}
+
+.atm-container {
+
+   
+    width: 677px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.atm-functions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.atm-balance-group, .atm-amount-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.atm-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* أسلوب القاعدة العامة */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.custom-section {
+    background-image: url('image/pexels-souvenirpixels-417074\ \(1\).jpg'); /* استبدل 'background.jpg' بعنوان صورة الخلفية الخاصة بك */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* الخلفية ثابتة عند التمرير */
+    height: 100vh; /* ارتفاع القسم ليغطي شاشة كاملة */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.custom-section p {
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+/* استعلامات الوسائط المتعددة */
+@media (max-width: 768px) { /* للأجهزة اللوحية */
+    .custom-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .custom-section p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) { /* للأجهزة المحمولة */
+    .custom-section h1 {
+        font-size: 2rem;
+    }
+
+    .custom-section p {
+        font-size: 1rem;
+    }
+}
